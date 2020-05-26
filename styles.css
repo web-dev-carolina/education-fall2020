@@ -1,0 +1,74 @@
+body { 
+  background-color: rgb(186, 186, 186) 
+}
+
+h1 { 
+  background-color: white; 
+  color: black; 
+  text-align: center; 
+  font-family: monospace;
+  border: 6px solid Tomato; 
+  padding:10px; 
+  margin: 10px 
+}
+
+h2 { 
+  background-color: rgba(136, 136, 136, .5); 
+  color: white; 
+  text-align: right 
+}
+
+ul, ol { 
+  color: rgb(84, 84, 84); 
+  font-family: monospace;
+  font-size: 16px; 
+
+}
+
+/* this is a comment */
+
+p { 
+  background-color: rgb(204, 204, 204); 
+  font-family: verdana; 
+  font-size: 20px; 
+  color: black 
+}
+
+#P3 { 
+  background-color: rgb(199, 216, 110); 
+  font-family: verdana; 
+  font-size: 20px; 
+  color: black 
+}
+
+p.purple { 
+  background-color: rgb(111, 31, 168); 
+  font-family: verdana; 
+  font-size: 20px; 
+  color: rgb(174, 111, 219) 
+}
+
+p.paragraphbox { 
+  background-color: rgb(255, 255, 255); 
+  font-family: verdana; 
+  font-style: italic; 
+  font-size: 18px; 
+  color: rgb(0, 0, 0);
+  overflow: scroll;
+  width: 500px;
+  height: 200px;
+}
+
+.cities {
+  background-color: rgb(6, 70, 6);
+  color: rgb(205, 231, 133);
+  margin: 20px;
+  padding: 20px;
+} 
+
+.cities h2 {
+  text-align: left;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+} 
