@@ -1,0 +1,56 @@
+body {
+    /* set the background-color to lightgrey */
+}
+.header {
+
+    /*
+    use this css class to edit the header to match the image
+    - set the background-color to blue (it doesn't have to exactly match the image on the screen)
+    - set the border to black, solid, 2px wide
+    - add a margin that is 10px on all sides 
+    */
+
+}
+.main-body {
+    /*
+        - set a 10px margin on all sides
+        - set a border that is solid, black, and 2px thick
+    */
+
+}
+.column1 {
+    /*
+        - set the height to 50vh
+        - set the background-color to lightgreen
+    */
+
+}
+.column2 {
+    /*
+        - set the height to 50vh
+        - set the background-color to lighyellow
+    */
+
+
+}
+.column3 {
+     /*
+        - set the height to 50vh
+        - set the background-color to lightcoral
+    */
+
+
+}
+.footer1 {
+    /*
+        - set the margin to 10px
+        - set a solid black border that is 2px thick
+        - set the background-color to lightblue
+    */
+
+    
+}
+/* don't touch this */
+h4 {
+
+}
