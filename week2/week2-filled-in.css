@@ -7,7 +7,7 @@ body {
     /*
     use this css class to edit the header to match the image
     - set the background-color to blue (it doesn't have to exactly match the image on the screen)
-    - set the border to black, solid, 2px wide
+    - set the border to black, 2px wide, solid
     - add a margin that is 10px on all sides 
     */
     background-color: lightblue;
@@ -17,7 +17,7 @@ body {
 .main-body {
     /*
         - set a 10px margin on all sides
-        - set a border that is solid, black, and 2px thick
+        - set a border that is black, solid, and 2px thick
     */
     margin: 10px;
     border: black solid 2px;
