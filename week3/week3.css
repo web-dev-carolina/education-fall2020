@@ -2,13 +2,14 @@
     Write your CSS in this file.
     Reference the powerpoints, google, or past CSS files for structure
     Examples:
-    - A class:
-    .class-name {
-        selector: value;
-    }
 
     - Apply CSS to a specific HTML tag:
     tag-name {
+        selector: value;
+    }
+
+	- A class:
+    .class-name {
         selector: value;
     }
 
