@@ -1,0 +1,70 @@
+/*
+    Write your CSS in this file.
+    Reference the powerpoints, google, or past CSS files for structure
+    Examples:
+
+    - Apply CSS to a specific HTML tag:
+    tag-name {
+        selector: value;
+    }
+
+	- A class:
+    .class-name {
+        selector: value;
+    }
+
+    - A ID:
+    #id-name {
+        selector: value;
+    }
+    
+    look on W3 schools website for any specific questions on what CSS selectors and styles to use/what the correct syntax is.
+*/
+.header {
+    background-color: lightblue;
+    border: black 2px solid;
+    height: 10vh;
+}
+.standard {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.banner {
+    background-color: lightcoral;
+    border: black 2px solid;
+    height: 13vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.story1 {
+    background-color: lightcyan;
+    border: black 2px solid;
+    height: 48vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+}
+.sidebar1 {
+    background-color: lightgray;
+    border: black 2px solid;
+    height: 48vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.story2 {
+    background-color: lightgoldenrodyellow;
+    border: black 2px solid;
+    height: 23vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+
+}
+.sidebar2 {
+    background-color: lightgreen;
+    border: black 2px solid;
+    height: 23vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
