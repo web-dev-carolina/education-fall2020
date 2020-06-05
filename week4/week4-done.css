@@ -1,0 +1,63 @@
+/* lion */
+div.gallery {
+    border: 1px solid #000000;
+}
+div.gallery:hover {
+    border: 2px solid #000000;
+}
+div.gallery #lion {
+    width: 100%;
+    height: auto;
+}
+div.description {
+    padding: 15px;
+    text-align: center;
+}
+
+/* fortnite */
+#fortnite {
+    border-radius: 50%;
+    filter: saturate(7);
+}
+
+/* speardiver */
+#bottom-right {
+    position: absolute;
+    bottom: 60%;
+    right: 4vw;
+    font-size: 18px;
+}
+#speardiver {
+    opacity: 0.6;
+    border-radius: 10px
+}
+
+/* tiger */
+#tiger {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    right: 0;
+    background-color: #929292;
+    overflow: hidden;
+    width: 0;
+    height: 40%;
+    transition: .5s ease;
+}
+#tiger-div:hover #overlay {
+    width: 100%;
+    left:0;
+}
+#text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

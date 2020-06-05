@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Images in Bootstrap</title>
+
+    <!-- Link to Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- a Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for search icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Link to your custom stylesheet. Any custom styling here will override the Bootstrap styles -->
+
+    <link rel="stylesheet" type="text/css" href="week4-done.css">
+
+</head>
+
+<body>
+    <!-- TODO: add all of your HTML here-->
+    <div class="row">
+        <div class="col-12 header">
+            <h2 class="text-center" style="text-decoration: underline;">done - week 4 - images in Bootstrap</h2>
+        </div>
+    </div>
+    <div class="row standard">
+        <!-- html for the lion picture -->
+        <div class="col-3 ">
+            <div class="gallery">
+                <a target="_blank" href="lion-image.jpg">
+                    <img id="lion" src="lion-image.jpg" class="img-responsive" alt="lion-image" style="max-width:25vw">
+                </a>
+                <div class="description">
+                    description
+                </div>
+            </div>
+        </div>
+
+        <!-- html for the fortnite picture -->
+        <div class="col-3 ">
+            <img id="fortnite" src="mac-loves-fortnite.jpg" class="img-responsive" style="max-width: 25vw"
+                alt="alt text">
+        </div>
+
+        <!-- html for the speardiver picture -->
+        <div class="col-3 ">
+            <img id="speardiver" src="speardiver.jpg" class="img-responsive" style="max-width: 25vw" alt="alt text">
+            <div id=bottom-right>
+                text overlay
+            </div>
+        </div>
+        
+        <!-- html for the tiger picture -->
+        <div class="col-3" id="tiger-div">
+            <img id="tiger" src="tiger.jpg" class="img-thumbnail img-responsive" style="max-width: 25vw" alt="alt text">
+            <div id="overlay">
+                <div id="text">
+                    more overlay
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- NO HTML BEYOND THIS POINT-->
+</body>
+
+</html>
