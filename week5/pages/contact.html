@@ -8,13 +8,15 @@
     <title>Home</title>
 
     <!-- Link to Bootstrap 4 CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
     <!-- a Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
 
     <!-- FontAwesome for search icon -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Link to your custom stylesheet. Any custom styling here will override the Bootstrap styles -->
 
@@ -34,18 +36,18 @@
             <div class="collapse navbar-collapse" id="nav-content">
                 <ul class="navbar-nav justify-content-center">
                     <li class="nav-item">
-                        <a href="index.html">
+                        <a href="../index.html">
                             <h3 class="not nav-font-size selected">Home</h3>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="pages/about.html">
+                        <a href="about.html">
                             <h3 class="not nav-font-size">About</h3>
                         </a>
                     </li>
-                    <li class="nav-item selected">
-                        <a href="pages/contact.html">
-                            <h3 class="not nav-font-size">Contact</h3>
+                    <li class="nav-item">
+                        <a href="contact.html">
+                            <h3 class="not nav-font-size selected">Contact</h3>
                         </a>
                     </li>
                 </ul>
@@ -54,31 +56,70 @@
     </div>
     <div class="row">
         <div class="col-12 header">
-            <h2 class="text-center">Top Events</h2>
+            <h2 class="text-center">Contact Us</h2>
         </div>
     </div>
-    <div class="row standard">
+    <div class="container">
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone number</th>
+            </tr>
+            <tr>
+                <td>Riis Widner</td>
+                <td> secretary@email.com</td>
+                <td>(000)000-0000</td>
+            </tr>
+            <tr>
+                <td>Rushil Shaw</td>
+                <td> treasurer@email.com</td>
+                <td>(000)000-0000</td>
+            </tr>
+            <tr>
+                <td>Mac Carlton</td>
+                <td> President@email.com</td>
+                <td>(000)000-0000</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <div class="row">
         <div class="col-12 header">
-            <h2 class="text-center">Header</h2>
+            <h2 class="text-center">Help Us Reach you</h2>
         </div>
     </div>
-    <div class="row standard">
-        <div class="col-12 banner">
-            <h2 class="text-center">Banner</h2>
-        </div>
-        <div class="col-8 story1">
-            <h2 class="text-center">story 1</h2>
-        </div>
-        <div class="col-4 sidebar1">
-            <h2 class="text-center">sidebar 1</h2>
-        </div>
-        <div class="col-8 story2">
-            <h2 class="text-center">story 2</h2>
-        </div>
-        <div class="col-4 sidebar2">
-            <h2 class="text-center">sidebar 2</h2>
+
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeHolder="Add Name">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="Email" class="form-control" placeHolder="Add Email">
+            </div>
+
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="text" class="form-control" placeHolder="Add Phone Number">
+            </div>
+        </form>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12 header">
+            <p class="text-center">Thank You for being a part of Web Dev Carolina</p>
         </div>
     </div>
+
+
     <!-- NO HTML BEYOND THIS POINT-->
 </body>
 
