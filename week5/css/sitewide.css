@@ -22,5 +22,18 @@
 */
 
 .selected {
-    
+    font-weight: bolder;
+    color: white;
+}
+.navbar-light {
+    text-align: right;
+}
+.nav-container {
+    background-color: rgb(236, 189, 181);
+}
+.nav-container a {
+    color: inherit;
+}
+.nav-item {
+    padding-right: 20px;
 }
