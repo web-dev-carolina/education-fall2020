@@ -29,10 +29,10 @@
     text-align: right;
 }
 .nav-container {
-    background-color: rgb(236, 189, 181);
+    background-color: rgb(54,54,54);
 }
 .nav-container a {
-    color: inherit;
+    color: white;
 }
 .nav-item {
     padding-right: 20px;
