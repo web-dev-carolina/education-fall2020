@@ -19,25 +19,20 @@
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Link to your custom stylesheet. Any custom styling here will override the Bootstrap styles -->
-
     <link rel="stylesheet" type="text/css" href="../css/sitewide.css">
     <link rel="stylesheet" type="text/css" href="../css/about.css">
-
 </head>
 
 <body>
     <!-- TODO: add all of your HTML here-->
     <div class="nav-container">
         <div class="navbar navbar-expand-sm navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navabr-collapse"
                 aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"> </span>
             </button>
             <div class="collapse navbar-collapse" id="nav-content">
                 <ul class="navbar-nav justify-content-center">
-                    <li>
-                        <h3 class="not nav-font-size header-title">Web Dev Carolina:</h3>
-                    </li>
                     <li class="nav-item">
                         <a href="../index.html">
                             <h3 class="not nav-font-size">Home</h3>
@@ -55,6 +50,7 @@
                     </li>
                 </ul>
             </div>
+            <a class="navbar-brand" href="#">Web Dev Carolina</a>
             <div class="nav-top-right">
                 <ul class="navbar-nav navbar-expand">
                     <li class="nav-item">
@@ -148,6 +144,11 @@
     </div>
     <!-- NO HTML BEYOND THIS POINT-->
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
 <script src="../scripts/about.js"></script>
+
 
 </html>
