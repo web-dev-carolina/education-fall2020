@@ -28,7 +28,7 @@
 <body>
     <!-- TODO: add all of your HTML here-->
     <div class="nav-container">
-        <div class="navbar navbar-expand-sm navbar-light">
+        <div class="navbar navbar-expand-sm navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content"
                 aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"> </span>
@@ -56,7 +56,7 @@
                 </ul>
             </div>
             <div class="nav-top-right">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav navbar-expand">
                     <li class="nav-item">
                         <a href="https://twitter.com/WebdevCarolina" target=”_blank”>
                             <i class="fab fa-twitter fa-lg"></i>
@@ -78,17 +78,17 @@
     </div>
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-10 indent">
             <ul class="about-us-info">
                 <li>
-                    <h3>Mission Statement</h3>
+                    <h4>Mission Statement</h4>
                     <p>To provide UNC students with an opportunity to learn basic, real-world coding and
                         digital-creative practices through web development.</p>
                 </li>
             </ul>
             <ul class="about-us-info" id="more">
                 <li>
-                    <h3>Why We Exist</h3>
+                    <h4>Why We Exist</h4>
                     <ol>
                         <li>
                             UNC does not currently have an active website development club
@@ -103,24 +103,9 @@
                     <p></p>
                 </li>
                 <li>
-                    <h3>What We Offer</h3>
+                    <h4>What We Offer</h4>
                     <p>Our members receive a semester of education followed by an invitation join the main club
                         development team to make websites for other organizations and clubs:</p>
-                </li>
-                <li>
-                    <h3>How We Contribute</h3>
-                    <ul>
-                        <li>
-                            We teach topics that are important in the real world but under-emphasized in a typical college education, such as digital branding and content dissemination
-                        </li>
-                        <li>
-                            We offer a semester of education that introduces students to different aspects of web development, from writing HTML and CSS to understanding best practices for search engine optimization and accessibility standards
-                        </li>
-                        <li>
-                            We support other organizations by designing and implementing their websites
-                        </li>
-                    </ul>
-                    <p></p>
                 </li>
             </ul>
             <button onclick="expandOnClick()" id="more-btn">Show more</button>
@@ -132,7 +117,37 @@
             <h2 class="text-left">Meet Our Team</h2>
         </div>
     </div>
+    <div class="row card-row justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/blank-profile.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Rushil Shah</h5>
+                    <p class="card-text">Treasurer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/blank-profile.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Mac Carlton</h5>
+                    <p class="card-text">President</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/blank-profile.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Riis Widner</h5>
+                    <p class="card-text">Secretary</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- NO HTML BEYOND THIS POINT-->
 </body>
 <script src="../scripts/about.js"></script>
+
 </html>
