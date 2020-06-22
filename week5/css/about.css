@@ -1,0 +1,15 @@
+.text-left{ 
+    padding-left: 5vw;
+}
+.about-us-info {
+    list-style: none;
+}
+#more {
+    display:none;
+}
+#more-btn {
+    border-color:rgb(54,54,54);
+}
+#more-btn:hover {
+    cursor:pointer; 
+}

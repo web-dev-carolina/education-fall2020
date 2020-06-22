@@ -8,13 +8,15 @@
     <title>About</title>
 
     <!-- Link to Bootstrap 4 CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
     <!-- a Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
 
     <!-- FontAwesome for search icon -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Link to your custom stylesheet. Any custom styling here will override the Bootstrap styles -->
 
@@ -33,6 +35,9 @@
             </button>
             <div class="collapse navbar-collapse" id="nav-content">
                 <ul class="navbar-nav justify-content-center">
+                    <li>
+                        <h3 class="not nav-font-size header-title">Web Dev Carolina:</h3>
+                    </li>
                     <li class="nav-item">
                         <a href="../index.html">
                             <h3 class="not nav-font-size">Home</h3>
@@ -50,36 +55,84 @@
                     </li>
                 </ul>
             </div>
+            <div class="nav-top-right">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="https://twitter.com/WebdevCarolina" target=”_blank”>
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/web-dev-carolina" target=”_blank”>
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row top-row">
+        <div class="col-12">
+            <h1 class="text-left">About Us</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-12 header">
-            <h2 class="text-center">Top Events</h2>
+        <div class="col-1"></div>
+        <div class="col-10">
+            <ul class="about-us-info">
+                <li>
+                    <h3>Mission Statement</h3>
+                    <p>To provide UNC students with an opportunity to learn basic, real-world coding and
+                        digital-creative practices through web development.</p>
+                </li>
+            </ul>
+            <ul class="about-us-info" id="more">
+                <li>
+                    <h3>Why We Exist</h3>
+                    <ol>
+                        <li>
+                            UNC does not currently have an active website development club
+                        </li>
+                        <li>
+                            This is a valuable skill and a process that does not require background experience in coding
+                        </li>
+                        <li>
+                            We will help other clubs create websites
+                        </li>
+                    </ol>
+                    <p></p>
+                </li>
+                <li>
+                    <h3>What We Offer</h3>
+                    <p>Our members receive a semester of education followed by an invitation join the main club
+                        development team to make websites for other organizations and clubs:</p>
+                </li>
+                <li>
+                    <h3>How We Contribute</h3>
+                    <ul>
+                        <li>
+                            We teach topics that are important in the real world but under-emphasized in a typical college education, such as digital branding and content dissemination
+                        </li>
+                        <li>
+                            We offer a semester of education that introduces students to different aspects of web development, from writing HTML and CSS to understanding best practices for search engine optimization and accessibility standards
+                        </li>
+                        <li>
+                            We support other organizations by designing and implementing their websites
+                        </li>
+                    </ul>
+                    <p></p>
+                </li>
+            </ul>
+            <button onclick="expandOnClick()" id="more-btn">Show more</button>
         </div>
+        <div class="col-1"></div>
     </div>
-    <div class="row standard">
-        <div class="col-12 header">
-            <h2 class="text-center">Header</h2>
-        </div>
-    </div>
-    <div class="row standard">
-        <div class="col-12 banner">
-            <h2 class="text-center">Banner</h2>
-        </div>
-        <div class="col-8 story1">
-            <h2 class="text-center">story 1</h2>
-        </div>
-        <div class="col-4 sidebar1">
-            <h2 class="text-center">sidebar 1</h2>
-        </div>
-        <div class="col-8 story2">
-            <h2 class="text-center">story 2</h2>
-        </div>
-        <div class="col-4 sidebar2">
-            <h2 class="text-center">sidebar 2</h2>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-left">Meet Our Team</h2>
         </div>
     </div>
     <!-- NO HTML BEYOND THIS POINT-->
 </body>
-
+<script src="../scripts/about.js"></script>
 </html>
