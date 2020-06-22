@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About</title>
+
+    <!-- Link to Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- a Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for search icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Link to your custom stylesheet. Any custom styling here will override the Bootstrap styles -->
+    <link rel="stylesheet" type="text/css" href="../css/sitewide.css">
+    <link rel="stylesheet" type="text/css" href="../css/about.css">
+</head>
+
+<body>
+    <!-- TODO: add all of your HTML here-->
+    <div class="nav-container">
+        <div class="navbar navbar-expand-sm navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navabr-collapse"
+                aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-content">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="../index.html">
+                            <h3 class="not nav-font-size">Home</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html">
+                            <h3 class="not nav-font-size selected">About</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">
+                            <h3 class="not nav-font-size">Contact</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a class="navbar-brand" href="#">Web Dev Carolina</a>
+            <div class="nav-top-right">
+                <ul class="navbar-nav navbar-expand">
+                    <li class="nav-item">
+                        <a href="https://twitter.com/WebdevCarolina" target=”_blank”>
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/web-dev-carolina" target=”_blank”>
+                            <i class="fab fa-github fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row top-row">
+        <div class="col-12">
+            <h1 class="text-left">About Us</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 indent">
+            <ul class="about-us-info">
+                <li>
+                    <h4>Mission Statement</h4>
+                    <p>To provide UNC students with an opportunity to learn basic, real-world coding and
+                        digital-creative practices through web development.</p>
+                </li>
+            </ul>
+            <ul class="about-us-info" id="more">
+                <li>
+                    <h4>Why We Exist</h4>
+                    <ol>
+                        <li>
+                            UNC does not currently have an active website development club
+                        </li>
+                        <li>
+                            This is a valuable skill and a process that does not require background experience in coding
+                        </li>
+                        <li>
+                            We will help other clubs create websites
+                        </li>
+                    </ol>
+                    <p></p>
+                </li>
+                <li>
+                    <h4>What We Offer</h4>
+                    <p>Our members receive a semester of education followed by an invitation join the main club
+                        development team to make websites for other organizations and clubs:</p>
+                </li>
+            </ul>
+            <button onclick="expandOnClick()" id="more-btn">Show more</button>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-left">Meet Our Team</h2>
+        </div>
+    </div>
+    <div class="row card-row justify-content-center">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/blank-profile.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Rushil Shah</h5>
+                    <p class="card-text">Treasurer</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/blank-profile.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Mac Carlton</h5>
+                    <p class="card-text">President</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../images/blank-profile.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Riis Widner</h5>
+                    <p class="card-text">Secretary</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NO HTML BEYOND THIS POINT-->
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+<script src="../scripts/about.js"></script>
+
+
+</html>

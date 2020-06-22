@@ -1,0 +1,47 @@
+/*
+    - Apply CSS to a specific HTML tag:
+    tag-name {
+        selector: value;
+    }
+	- A class:
+    .class-name {
+        selector: value;
+    }
+    - A ID:
+    #id-name {
+        selector: value;
+    }
+    look on W3 schools website for any specific questions on what CSS selectors and styles to use/what the correct syntax is.
+*/
+
+.nav-container {
+    background-color: rgb(54,54,54);
+}
+.nav-font-size {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.selected {
+    font-weight: normal;
+}
+.nav-item {
+    padding-right: 20px;
+}
+.header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    padding-right: 20px;
+}
+.nav-container a {
+    color: white;
+}
+.nav-top-right {
+    float: right;
+    list-style: none;
+    padding: none;
+}
+.top-row {
+    padding-top: 1vh
+}
+
