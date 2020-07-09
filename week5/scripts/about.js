@@ -8,4 +8,4 @@ function expandOnClick() {
       more.style.display = "block";
       btn.innerHTML = "Show less";
     }
-  }
+}
