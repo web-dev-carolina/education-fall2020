@@ -1,6 +1,16 @@
+/*This styles the body of the entire page by giving it a gray background color*/
 body { 
   background-color: rgb(186, 186, 186) 
 }
+
+/* This styles every element in the HTML where the class = "row". (The period before
+  the word row indicates we are looking for the class = "row", if there were no period,
+  it would be looking for a tag that looks like <row> 
+  
+  If you want to style more elements like this, simply add class="row" to their HTML start tag!
+  You can also play around with the margins, border, background color, text color, font size,
+  font weight, and anything else you might find interesting!
+  */
 .row {
   margin-top: 3vh;
   border: solid 2px grey;
